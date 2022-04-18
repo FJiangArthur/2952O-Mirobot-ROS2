@@ -1,0 +1,41 @@
+[0.017s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.055s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.134s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.169s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.363s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.497s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.566s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.575s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.583s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.585s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.957s] -- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)
+[0.957s] -- Found serial: 1.2.1 (/home/artjiang/dev_ws/install/serial/share/serial/cmake)
+[0.968s] CMake Error at /home/artjiang/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[0.968s]   By not providing "Findrt.cmake" in CMAKE_MODULE_PATH this project has asked
+[0.968s]   CMake to find a package configuration file provided by "rt", but CMake did
+[0.968s]   not find one.
+[0.968s] 
+[0.968s]   Could not find a package configuration file provided by "rt" with any of
+[0.968s]   the following names:
+[0.968s] 
+[0.968s]     rtConfig.cmake
+[0.968s]     rt-config.cmake
+[0.968s] 
+[0.969s]   Add the installation prefix of "rt" to CMAKE_PREFIX_PATH or set "rt_DIR" to
+[0.969s]   a directory containing one of the above files.  If "rt" provides a separate
+[0.969s]   development package or SDK, be sure it has been installed.
+[0.969s] Call Stack (most recent call first):
+[0.969s]   /home/artjiang/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake:41 (include)
+[0.969s]   CMakeLists.txt:22 (find_package)
+[0.969s] 
+[0.969s] 
+[0.970s] -- Configuring incomplete, errors occurred!
+[0.970s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeOutput.log".
+[0.970s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeError.log".
+[0.976s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.978s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2

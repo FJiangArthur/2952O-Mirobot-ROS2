@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (mirobot_urdf_ros2) JobQueued: {'identifier': 'mirobot_urdf_ros2', 'dependencies': OrderedDict()}
+[0.000201] (mirobot_urdf_ros2) JobStarted: {'identifier': 'mirobot_urdf_ros2'}
+[0.011095] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'cmake'}
+[0.012292] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'build'}
+[0.013454] (mirobot_urdf_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', '--', '-j2', '-l2'], 'cwd': '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artjiang'), ('SSH_AGENT_PID', '465657'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/artjiang/dev_ws/install/turtlesim/lib:/home/artjiang/dev_ws/install/serial/lib:/home/artjiang/ros2_ws/install/realsense2_camera/lib:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib:/home/artjiang/ros2_ws/install/depthai_bridge/lib:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/artjiang'), ('OLDPWD', '/opt/ros/galactic/share/sensor_msgs/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '465470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artjiang/dev_ws/install:/home/artjiang/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'artjiang'), ('JOURNAL_STREAM', '8:1973625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artjiang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/465697,unix/ubuntu:/tmp/.ICE-unix/465697'), ('INVOCATION_ID', '63c1bd357b3c499eba63b33b851945b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/762d5b9c_b9b5_4b91_a7d6_d181b1bd413b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1369'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artjiang/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_driver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic')]), 'shell': False}
+[0.072083] (mirobot_urdf_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mirobot_write_node\x1b[0m\n'}
+[0.098606] (-) TimerEvent: {}
+[0.103551] (mirobot_urdf_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o\x1b[0m\n'}
+[0.198726] (-) TimerEvent: {}
+[0.299141] (-) TimerEvent: {}
+[0.399447] (-) TimerEvent: {}
+[0.499762] (-) TimerEvent: {}
+[0.600166] (-) TimerEvent: {}
+[0.700483] (-) TimerEvent: {}
+[0.801127] (-) TimerEvent: {}
+[0.901433] (-) TimerEvent: {}
+[1.010660] (-) TimerEvent: {}
+[1.113037] (-) TimerEvent: {}
+[1.214086] (-) TimerEvent: {}
+[1.315148] (-) TimerEvent: {}
+[1.416696] (-) TimerEvent: {}
+[1.519881] (-) TimerEvent: {}
+[1.621489] (-) TimerEvent: {}
+[1.723614] (-) TimerEvent: {}
+[1.824201] (-) TimerEvent: {}
+[1.927244] (-) TimerEvent: {}
+[2.027627] (-) TimerEvent: {}
+[2.127978] (-) TimerEvent: {}
+[2.228666] (-) TimerEvent: {}
+[2.330724] (-) TimerEvent: {}
+[2.431018] (-) TimerEvent: {}
+[2.531407] (-) TimerEvent: {}
+[2.631859] (-) TimerEvent: {}
+[2.732198] (-) TimerEvent: {}
+[2.832547] (-) TimerEvent: {}
+[2.932884] (-) TimerEvent: {}
+[3.033370] (-) TimerEvent: {}
+[3.134045] (-) TimerEvent: {}
+[3.234339] (-) TimerEvent: {}
+[3.334762] (-) TimerEvent: {}
+[3.435314] (-) TimerEvent: {}
+[3.535619] (-) TimerEvent: {}
+[3.636296] (-) TimerEvent: {}
+[3.736957] (-) TimerEvent: {}
+[3.837915] (-) TimerEvent: {}
+[3.940285] (-) TimerEvent: {}
+[4.042156] (-) TimerEvent: {}
+[4.142569] (-) TimerEvent: {}
+[4.243064] (-) TimerEvent: {}
+[4.343646] (-) TimerEvent: {}
+[4.444267] (-) TimerEvent: {}
+[4.544932] (-) TimerEvent: {}
+[4.650077] (-) TimerEvent: {}
+[4.750389] (-) TimerEvent: {}
+[4.850744] (-) TimerEvent: {}
+[4.951242] (-) TimerEvent: {}
+[5.051583] (-) TimerEvent: {}
+[5.152017] (-) TimerEvent: {}
+[5.252384] (-) TimerEvent: {}
+[5.352769] (-) TimerEvent: {}
+[5.453034] (-) TimerEvent: {}
+[5.553782] (-) TimerEvent: {}
+[5.654384] (-) TimerEvent: {}
+[5.754672] (-) TimerEvent: {}
+[5.855092] (-) TimerEvent: {}
+[5.955708] (-) TimerEvent: {}
+[6.056269] (-) TimerEvent: {}
+[6.156599] (-) TimerEvent: {}
+[6.257744] (-) TimerEvent: {}
+[6.358235] (-) TimerEvent: {}
+[6.407216] (mirobot_urdf_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mirobot_write_node\x1b[0m\n'}
+[6.460898] (-) TimerEvent: {}
+[6.561589] (-) TimerEvent: {}
+[6.662346] (-) TimerEvent: {}
+[6.762642] (-) TimerEvent: {}
+[6.784514] (mirobot_urdf_ros2) StdoutLine: {'line': b'[100%] Built target mirobot_write_node\n'}
+[6.800318] (mirobot_urdf_ros2) CommandEnded: {'returncode': 0}
+[6.835420] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'install'}
+[6.850264] (mirobot_urdf_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2'], 'cwd': '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artjiang'), ('SSH_AGENT_PID', '465657'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/artjiang/dev_ws/install/turtlesim/lib:/home/artjiang/dev_ws/install/serial/lib:/home/artjiang/ros2_ws/install/realsense2_camera/lib:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib:/home/artjiang/ros2_ws/install/depthai_bridge/lib:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/artjiang'), ('OLDPWD', '/opt/ros/galactic/share/sensor_msgs/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '465470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artjiang/dev_ws/install:/home/artjiang/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'artjiang'), ('JOURNAL_STREAM', '8:1973625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artjiang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/465697,unix/ubuntu:/tmp/.ICE-unix/465697'), ('INVOCATION_ID', '63c1bd357b3c499eba63b33b851945b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/762d5b9c_b9b5_4b91_a7d6_d181b1bd413b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1369'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artjiang/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_driver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic')]), 'shell': False}
+[6.862178] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.862729] (-) TimerEvent: {}
+[6.863164] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Installing: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/lib/mirobot_urdf_ros2/mirobot_write_node\n'}
+[6.866645] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/lib/mirobot_urdf_ros2/mirobot_write_node" to ""\n'}
+[6.867538] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/package_run_dependencies/mirobot_urdf_ros2\n'}
+[6.867806] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/parent_prefix_path/mirobot_urdf_ros2\n'}
+[6.867981] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.sh\n'}
+[6.868057] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.dsv\n'}
+[6.868126] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.sh\n'}
+[6.868332] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.dsv\n'}
+[6.868408] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.bash\n'}
+[6.868475] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.sh\n'}
+[6.868542] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.zsh\n'}
+[6.868607] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.dsv\n'}
+[6.868672] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Installing: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.dsv\n'}
+[6.868879] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/packages/mirobot_urdf_ros2\n'}
+[6.869453] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config.cmake\n'}
+[6.870331] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config-version.cmake\n'}
+[6.871655] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.xml\n'}
+[6.872686] (mirobot_urdf_ros2) CommandEnded: {'returncode': 0}
+[6.929787] (mirobot_urdf_ros2) JobEnded: {'identifier': 'mirobot_urdf_ros2', 'rc': 0}
+[6.931209] (-) EventReactorShutdown: {}

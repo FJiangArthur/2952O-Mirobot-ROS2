@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (mirobot_urdf_ros2) JobQueued: {'identifier': 'mirobot_urdf_ros2', 'dependencies': OrderedDict()}
+[0.000975] (mirobot_urdf_ros2) JobStarted: {'identifier': 'mirobot_urdf_ros2'}
+[0.015432] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'cmake'}
+[0.017273] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'build'}
+[0.019506] (mirobot_urdf_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', '--', '-j2', '-l2'], 'cwd': '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artjiang'), ('SSH_AGENT_PID', '465657'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/artjiang/dev_ws/install/turtlesim/lib:/home/artjiang/dev_ws/install/serial/lib:/home/artjiang/ros2_ws/install/realsense2_camera/lib:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib:/home/artjiang/ros2_ws/install/depthai_bridge/lib:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/artjiang'), ('OLDPWD', '/opt/ros/galactic/share/sensor_msgs/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '465470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artjiang/dev_ws/install:/home/artjiang/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'artjiang'), ('JOURNAL_STREAM', '8:1973625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artjiang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/465697,unix/ubuntu:/tmp/.ICE-unix/465697'), ('INVOCATION_ID', '63c1bd357b3c499eba63b33b851945b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/762d5b9c_b9b5_4b91_a7d6_d181b1bd413b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1369'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artjiang/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/artjiang/ros2_ws/install/depthai_ros_driver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/home/artjiang/ros2_ws/install/realsense2_description:/home/artjiang/ros2_ws/install/realsense2_camera:/home/artjiang/ros2_ws/install/realsense2_camera_msgs:/home/artjiang/ros2_ws/install/depthai_examples:/home/artjiang/ros2_ws/install/depthai_bridge:/home/artjiang/ros2_ws/install/depthai_ros_msgs:/home/artjiang/ros2_ws/install/depthai_ros_driver:/opt/ros/galactic')]), 'shell': False}
+[0.096761] (mirobot_urdf_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mirobot_write_node\x1b[0m\n'}
+[0.099376] (-) TimerEvent: {}
+[0.141770] (mirobot_urdf_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o\x1b[0m\n'}
+[0.199987] (-) TimerEvent: {}
+[0.300448] (-) TimerEvent: {}
+[0.400859] (-) TimerEvent: {}
+[0.501334] (-) TimerEvent: {}
+[0.601676] (-) TimerEvent: {}
+[0.702003] (-) TimerEvent: {}
+[0.802329] (-) TimerEvent: {}
+[0.903050] (-) TimerEvent: {}
+[1.004011] (-) TimerEvent: {}
+[1.104455] (-) TimerEvent: {}
+[1.205531] (-) TimerEvent: {}
+[1.306021] (-) TimerEvent: {}
+[1.406467] (-) TimerEvent: {}
+[1.507014] (-) TimerEvent: {}
+[1.607823] (-) TimerEvent: {}
+[1.708185] (-) TimerEvent: {}
+[1.808524] (-) TimerEvent: {}
+[1.909489] (-) TimerEvent: {}
+[2.010045] (-) TimerEvent: {}
+[2.110553] (-) TimerEvent: {}
+[2.111220] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMirobotWriteNode::MirobotWriteNode(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.111403] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:33:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.111495] (mirobot_urdf_ros2) StderrLine: {'line': b'   33 |       "/joint_states", 1, std::bind(&MirobotWriteNode::angle_write_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.111566] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.111783] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.111868] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:4\x1b[m\x1b[K:\n'}
+[2.111935] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.112006] (mirobot_urdf_ros2) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[2.112070] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.112134] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.112203] (mirobot_urdf_ros2) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[2.112267] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.112333] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.112636] (mirobot_urdf_ros2) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[2.112715] (mirobot_urdf_ros2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.112781] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.112850] (mirobot_urdf_ros2) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.112929] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.113013] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:33:87:\x1b[m\x1b[K   required from here\n'}
+[2.113080] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.113147] (mirobot_urdf_ros2) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[2.113212] (mirobot_urdf_ros2) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.113274] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.113339] (mirobot_urdf_ros2) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[2.113401] (mirobot_urdf_ros2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.113464] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.113527] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:33:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.113593] (mirobot_urdf_ros2) StderrLine: {'line': b'   33 |       "/joint_states", 1, std::bind(&MirobotWriteNode::angle_write_callback, this, _1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.113657] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.113721] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.113786] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:4\x1b[m\x1b[K:\n'}
+[2.113849] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.113920] (mirobot_urdf_ros2) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[2.113983] (mirobot_urdf_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.114044] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114115] (mirobot_urdf_ros2) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[2.114180] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.114243] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114311] (mirobot_urdf_ros2) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[2.114379] (mirobot_urdf_ros2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.114464] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.114571] (mirobot_urdf_ros2) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.114654] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114729] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:33:87:\x1b[m\x1b[K   required from here\n'}
+[2.114795] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114861] (mirobot_urdf_ros2) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[2.114931] (mirobot_urdf_ros2) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.114994] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.115061] (mirobot_urdf_ros2) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[2.115125] (mirobot_urdf_ros2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.115187] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.115249] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:33:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.115315] (mirobot_urdf_ros2) StderrLine: {'line': b'   33 |       "/joint_states", 1, std::bind(&MirobotWriteNode::angle_write_callback, this, _1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.115378] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.115442] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:29:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.115510] (mirobot_urdf_ros2) StderrLine: {'line': b'   29 |     MirobotWriteNode(\x1b[01;35m\x1b[Kstd::string name\x1b[m\x1b[K)\n'}
+[2.115573] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.210753] (-) TimerEvent: {}
+[2.311457] (-) TimerEvent: {}
+[2.313112] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.313268] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.313349] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.313725] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.313808] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.313890] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.313963] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.314047] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.314113] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.314214] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.314284] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.314351] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MirobotWriteNode::angle_write_callback(const JointState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.314460] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMirobotWriteNode::get_logger(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314665] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   RCLCPP_INFO(this->get_logger("I heard,"\x1b[01;31m\x1b[K)\x1b[m\x1b[K,"Art Jiang: %s", Gcode.c_str());\n'}
+[2.314752] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.314931] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.315247] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.315377] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.315455] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.315676] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.315777] (mirobot_urdf_ros2) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[2.315850] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.315918] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.315986] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.316052] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.316119] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.317295] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.317517] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.317737] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.317940] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.318113] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.318289] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.318523] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.318689] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.318849] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMirobotWriteNode::get_logger(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.319011] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   RCLCPP_INFO(this->get_logger("I heard,"\x1b[01;31m\x1b[K)\x1b[m\x1b[K,"Art Jiang: %s", Gcode.c_str());\n'}
+[2.319354] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.319633] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.319956] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.320478] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.320668] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.321053] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.321239] (mirobot_urdf_ros2) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[2.321405] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.321566] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.321727] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.321889] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.322049] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.322209] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.323187] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.323382] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.324057] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.324242] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.324481] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.324675] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.324856] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.325112] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.325306] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());\n'}
+[2.325507] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.325689] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.325896] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());\n'}
+[2.326117] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.326321] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.326503] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());\n'}
+[2.326680] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.326857] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.327087] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.327275] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.327454] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.327633] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.327822] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.328031] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.328228] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.328450] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.328646] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.328827] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.329006] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMirobotWriteNode::get_logger(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.329186] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   RCLCPP_INFO(this->get_logger("I heard,"\x1b[01;31m\x1b[K)\x1b[m\x1b[K,"Art Jiang: %s", Gcode.c_str());\n'}
+[2.329364] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.329550] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.329736] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.329915] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.330092] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.330269] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.330486] (mirobot_urdf_ros2) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[2.330703] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.330884] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.331393] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.331597] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.332266] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.332525] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.332716] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.332899] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.333164] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.333373] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.333555] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.333746] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.333927] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.334114] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMirobotWriteNode::get_logger(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.334364] (mirobot_urdf_ros2) StderrLine: {'line': b'   55 |   RCLCPP_INFO(this->get_logger("I heard,"\x1b[01;31m\x1b[K)\x1b[m\x1b[K,"Art Jiang: %s", Gcode.c_str());\n'}
+[2.334552] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.334733] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.334912] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.335099] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.335279] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.335491] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.335676] (mirobot_urdf_ros2) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[2.335853] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.336033] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.336211] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.336426] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.336626] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.336807] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.337018] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.337216] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.337396] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.337574] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.337798] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.338010] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.339018] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.339472] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.339920] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.340131] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Port has been open successfully");\n'}
+[2.340752] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.340945] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.341158] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.341389] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Port has been open successfully");\n'}
+[2.341574] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341840] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.342029] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Port has been open successfully");\n'}
+[2.342210] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.342388] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.342565] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Port has been open successfully");\n'}
+[2.342743] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.342987] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.343168] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.343348] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.343534] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.343711] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.343895] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.344074] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.344250] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.344482] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.344672] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.344850] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.345026] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.345204] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Port has been open successfully");\n'}
+[2.345382] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.345560] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:89:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.345746] (mirobot_urdf_ros2) StderrLine: {'line': b'   89 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Port has been open successfully");\n'}
+[2.345923] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.346099] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.346279] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.346456] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.346631] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.346914] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.347182] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.347510] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.349461] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.349686] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.349873] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.350080] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.350365] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.350585] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Unable to open port");\n'}
+[2.350769] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.350948] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.351130] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.351309] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Unable to open port");\n'}
+[2.351524] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.351705] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.351886] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Unable to open port");\n'}
+[2.352062] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.352240] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.352495] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Unable to open port");\n'}
+[2.352686] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.352866] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.353045] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.353225] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.353402] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.353578] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.353766] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.354002] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.354261] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.354458] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.354638] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.354817] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.354995] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.355205] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Unable to open port");\n'}
+[2.355408] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.355605] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:93:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.355915] (mirobot_urdf_ros2) StderrLine: {'line': b'   93 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Unable to open port");\n'}
+[2.356230] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.357018] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:99:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Clock\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.357246] (mirobot_urdf_ros2) StderrLine: {'line': b'   99 |   rclcpp::Clock::\x1b[01;31m\x1b[Ksleep_for\x1b[m\x1b[K(1);\n'}
+[2.357433] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.357615] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.357807] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.358044] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.358261] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.358442] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.358620] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.358799] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.358977] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.359232] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.359418] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.359596] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.359775] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.359955] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Attach and wait for commands");\n'}
+[2.360132] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.360307] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.360569] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.360755] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Attach and wait for commands");\n'}
+[2.360933] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.361113] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.361293] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Attach and wait for commands");\n'}
+[2.361471] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.361648] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.361827] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Attach and wait for commands");\n'}
+[2.362005] (mirobot_urdf_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.362183] (mirobot_urdf_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.362360] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.362550] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.362738] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.362916] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.363100] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.363279] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.363458] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.363635] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.363813] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.364321] (mirobot_urdf_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.364730] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.365435] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Attach and wait for commands");\n'}
+[2.365655] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.365835] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.366057] (mirobot_urdf_ros2) StderrLine: {'line': b'  100 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Attach and wait for commands");\n'}
+[2.366236] (mirobot_urdf_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.366453] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:103:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.366657] (mirobot_urdf_ros2) StderrLine: {'line': b'  103 |  while (\x1b[01;31m\x1b[Kros\x1b[m\x1b[K::ok())\n'}
+[2.366831] (mirobot_urdf_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.367040] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:105:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.367225] (mirobot_urdf_ros2) StderrLine: {'line': b'  105 |   rclcpp::spin_some(MirobotWriteNode\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.367397] (mirobot_urdf_ros2) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.412282] (-) TimerEvent: {}
+[2.517082] (-) TimerEvent: {}
+[2.618938] (-) TimerEvent: {}
+[2.720281] (-) TimerEvent: {}
+[2.821190] (-) TimerEvent: {}
+[2.927066] (-) TimerEvent: {}
+[3.030174] (-) TimerEvent: {}
+[3.137068] (-) TimerEvent: {}
+[3.238610] (-) TimerEvent: {}
+[3.338922] (-) TimerEvent: {}
+[3.439697] (-) TimerEvent: {}
+[3.540636] (-) TimerEvent: {}
+[3.641044] (-) TimerEvent: {}
+[3.715792] (mirobot_urdf_ros2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1\n'}
+[3.716017] (mirobot_urdf_ros2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2\n'}
+[3.716132] (mirobot_urdf_ros2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.719937] (mirobot_urdf_ros2) CommandEnded: {'returncode': 2}
+[3.741211] (-) TimerEvent: {}
+[3.765537] (mirobot_urdf_ros2) JobEnded: {'identifier': 'mirobot_urdf_ros2', 'rc': 2}
+[3.778043] (-) EventReactorShutdown: {}

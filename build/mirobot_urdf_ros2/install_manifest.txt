@@ -1,0 +1,16 @@
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/lib/mirobot_urdf_ros2/mirobot_write_node
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/package_run_dependencies/mirobot_urdf_ros2
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/parent_prefix_path/mirobot_urdf_ros2
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.sh
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.dsv
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.sh
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.dsv
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.bash
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.sh
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.zsh
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.dsv
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.dsv
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/packages/mirobot_urdf_ros2
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config.cmake
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config-version.cmake
+/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.xml

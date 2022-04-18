@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (mirobot_urdf_ros2) JobQueued: {'identifier': 'mirobot_urdf_ros2', 'dependencies': OrderedDict()}
+[0.000261] (mirobot_urdf_ros2) JobStarted: {'identifier': 'mirobot_urdf_ros2'}
+[0.010070] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'cmake'}
+[0.012514] (mirobot_urdf_ros2) JobProgress: {'identifier': 'mirobot_urdf_ros2', 'progress': 'build'}
+[0.012706] (mirobot_urdf_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', '--', '-j2', '-l2'], 'cwd': '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artjiang'), ('SSH_AGENT_PID', '465657'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/artjiang/dev_ws/install/turtlesim/lib:/home/artjiang/dev_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/artjiang'), ('OLDPWD', '/home/artjiang/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '465470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artjiang/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'artjiang'), ('JOURNAL_STREAM', '8:1973625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artjiang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/465697,unix/ubuntu:/tmp/.ICE-unix/465697'), ('INVOCATION_ID', '63c1bd357b3c499eba63b33b851945b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2836dac_956f_45d9_8c4b_8e7c1798cbd6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1195'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artjiang/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/artjiang/dev_ws/install/turtlesim:/home/artjiang/dev_ws/install/serial:/home/artjiang/dev_ws/install/cpp_pubsub:/opt/ros/galactic')]), 'shell': False}
+[0.049379] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.069934] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.101519] (-) TimerEvent: {}
+[0.135972] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.172202] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.175719] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.201669] (-) TimerEvent: {}
+[0.295422] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.301876] (-) TimerEvent: {}
+[0.345443] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.346950] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.363933] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.402063] (-) TimerEvent: {}
+[0.486150] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)\n'}
+[0.505317] (-) TimerEvent: {}
+[0.549391] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.558123] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[0.565697] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)\n'}
+[0.567783] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[0.605615] (-) TimerEvent: {}
+[0.706189] (-) TimerEvent: {}
+[0.806791] (-) TimerEvent: {}
+[0.907173] (-) TimerEvent: {}
+[0.969121] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)\n'}
+[0.969498] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/artjiang/dev_ws/install/serial/share/serial/cmake)\n'}
+[1.007570] (-) TimerEvent: {}
+[1.019709] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.049597] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.051416] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[1.056026] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.057665] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.063642] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.063939] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.073477] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.073987] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.074290] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.074542] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.074703] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.074866] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.075038] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.075192] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.075395] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.075555] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.075708] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.075859] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.108510] (-) TimerEvent: {}
+[1.180007] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[1.180293] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.180824] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.195717] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.204698] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.208628] (-) TimerEvent: {}
+[1.208848] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.222817] (mirobot_urdf_ros2) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[1.264377] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.277970] (mirobot_urdf_ros2) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.308742] (-) TimerEvent: {}
+[1.312946] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.313495] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.328563] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[1.334819] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.336958] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.337088] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.337177] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.337270] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.343882] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.344451] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.345117] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.345636] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[1.346869] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.347478] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.370378] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.384219] (mirobot_urdf_ros2) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.408882] (-) TimerEvent: {}
+[1.424950] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.441780] (mirobot_urdf_ros2) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.478727] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.479280] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[1.479969] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.509013] (-) TimerEvent: {}
+[1.509953] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.565066] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.580573] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.580887] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/artjiang/Desktop/mirobot_urdf_ros2/include>\n'}
+[1.581051] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.596315] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.596555] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.598431] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.602451] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.604679] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.609162] (-) TimerEvent: {}
+[1.619763] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.620260] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.622055] (mirobot_urdf_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.625626] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.655665] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.655923] (mirobot_urdf_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2\n'}
+[1.683672] (mirobot_urdf_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mirobot_write_node\x1b[0m\n'}
+[1.706448] (mirobot_urdf_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o\x1b[0m\n'}
+[1.709331] (-) TimerEvent: {}
+[1.809728] (-) TimerEvent: {}
+[1.835615] (mirobot_urdf_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:14:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/Empty.hpp: No such file or directory\n'}
+[1.835875] (mirobot_urdf_ros2) StderrLine: {'line': b'   14 | #include \x1b[01;31m\x1b[K<std_msgs/msg/Empty.hpp>\x1b[m\x1b[K\n'}
+[1.836053] (mirobot_urdf_ros2) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836202] (mirobot_urdf_ros2) StderrLine: {'line': b'compilation terminated.\n'}
+[1.838827] (mirobot_urdf_ros2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1\n'}
+[1.839172] (mirobot_urdf_ros2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2\n'}
+[1.839487] (mirobot_urdf_ros2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.844440] (mirobot_urdf_ros2) CommandEnded: {'returncode': 2}
+[1.884694] (mirobot_urdf_ros2) JobEnded: {'identifier': 'mirobot_urdf_ros2', 'rc': 2}
+[1.885992] (-) EventReactorShutdown: {}

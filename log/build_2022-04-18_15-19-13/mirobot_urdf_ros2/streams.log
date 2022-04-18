@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.075s] [35m[1mScanning dependencies of target mirobot_write_node[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o[0m
+[2.369s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:24:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[2.369s]    24 | void angle_write_callback(const [01;31m[Ksensor_msgs[m[K::JointState& msg)
+[2.369s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[2.369s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[2.369s]    24 | void angle_write_callback(const sensor_msgs::JointState[01;31m[K&[m[K msg)
+[2.369s]       |                                                        [01;31m[K^[m[K
+[2.369s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[2.369s]    24 | void angle_write_callback[34m[K([m[Kconst sensor_msgs::JointState[01;31m[K&[m[K msg)
+[2.369s]       |                          [34m[K~[m[K                             [01;31m[K^[m[K
+[2.369s]       |                                                        [32m[K)[m[K
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:24:58:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[2.370s]    24 | void angle_write_callback(const sensor_msgs::JointState& [01;31m[Kmsg[m[K)
+[2.370s]       |                                                          [01;31m[K^~~[m[K
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:49:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.370s]    49 |  [01;31m[Kros[m[K::init(argc, argv, "mirobot_write_node");//初始化，节点名称 "Mirobot_write_node"
+[2.370s]       |  [01;31m[K^~~[m[K
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:50:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.370s]    50 |  [01;31m[Kros[m[K::NodeHandle nh;
+[2.370s]       |  [01;31m[K^~~[m[K
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:52:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.370s]    52 |  [01;31m[Kros[m[K::Subscriber sub_angle = nh.subscribe("/joint_states", 1, angle_write_callback);//指定节点订阅的话题，并指定回调函数
+[2.370s]       |  [01;31m[K^~~[m[K
+[2.370s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:53:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.370s]    53 |  [01;31m[Kros[m[K::Rate loop_rate(20);//指定了频率为20Hz
+[2.370s]       |  [01;31m[K^~~[m[K
+[2.371s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO_STREAM[m[K’?
+[2.371s]    63 |   [01;31m[KROS_INFO_STREAM[m[K("Port has been open successfully");
+[2.371s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.371s]       |   [32m[KRCLCPP_INFO_STREAM[m[K
+[2.373s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR_STREAM[m[K’?
+[2.373s]    67 |   [01;31m[KROS_ERROR_STREAM[m[K("Unable to open port");
+[2.373s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.373s]       |   [32m[KRCLCPP_ERROR_STREAM[m[K
+[2.373s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.373s]    73 |   [01;31m[Kros[m[K::Duration(1).sleep();
+[2.373s]       |   [01;31m[K^~~[m[K
+[2.374s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO_STREAM[m[K’?
+[2.374s]    74 |   [01;31m[KROS_INFO_STREAM[m[K("Attach and wait for commands");
+[2.374s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.374s]       |   [32m[KRCLCPP_INFO_STREAM[m[K
+[2.375s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.375s]    77 |  while ([01;31m[Kros[m[K::ok())
+[2.375s]       |         [01;31m[K^~~[m[K
+[2.375s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.375s]    79 |   [01;31m[Kros[m[K::spinOnce();
+[2.375s]       |   [01;31m[K^~~[m[K
+[2.375s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:80:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[2.375s]    80 |   [01;31m[Kloop_rate[m[K.sleep();
+[2.376s]       |   [01;31m[K^~~~~~~~~[m[K
+[3.056s] make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1
+[3.056s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2
+[3.057s] make: *** [Makefile:141: all] Error 2
+[3.061s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2

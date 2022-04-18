@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findrviz.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "rviz", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "rviz" with any of
+  the following names:
+
+    rvizConfig.cmake
+    rviz-config.cmake
+
+  Add the installation prefix of "rviz" to CMAKE_PREFIX_PATH or set
+  "rviz_DIR" to a directory containing one of the above files.  If "rviz"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.072s] [35m[1mScanning dependencies of target mirobot_write_node[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o[0m
+[6.407s] [100%] [32m[1mLinking CXX executable mirobot_write_node[0m
+[6.784s] [100%] Built target mirobot_write_node
+[6.800s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[6.851s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2
+[6.862s] -- Install configuration: ""
+[6.863s] -- Installing: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/lib/mirobot_urdf_ros2/mirobot_write_node
+[6.867s] -- Set runtime path of "/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/lib/mirobot_urdf_ros2/mirobot_write_node" to ""
+[6.867s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/package_run_dependencies/mirobot_urdf_ros2
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/parent_prefix_path/mirobot_urdf_ros2
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.sh
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/ament_prefix_path.dsv
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.sh
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/environment/path.dsv
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.bash
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.sh
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.zsh
+[6.868s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/local_setup.dsv
+[6.868s] -- Installing: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.dsv
+[6.869s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/ament_index/resource_index/packages/mirobot_urdf_ros2
+[6.870s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config.cmake
+[6.871s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/cmake/mirobot_urdf_ros2Config-version.cmake
+[6.872s] -- Up-to-date: /home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2/share/mirobot_urdf_ros2/package.xml
+[6.873s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2

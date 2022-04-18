@@ -1,0 +1,10 @@
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/install/local.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/install.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/list_install_components.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/rebuild_cache.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/edit_cache.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/test.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/mirobot_write_node.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/install/strip.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/mirobot_urdf_ros2_uninstall.dir
+/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/uninstall.dir

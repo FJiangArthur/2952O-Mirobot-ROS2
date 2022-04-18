@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.133s] [35m[1mScanning dependencies of target mirobot_write_node[0m
+[0.176s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o[0m
+[0.311s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:110:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.312s]   110 | 
+[0.312s]       | 
+[1.766s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.766s]    55 |   [01;31m[KRCLCPP_INFO[m[K((rclcpp::get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());
+[1.766s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.766s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:27:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.766s]    27 | [01;36m[K{[m[K
+[1.766s]       | [01;36m[K^[m[K
+[1.769s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K In constructor ‘[01m[KMirobotWriteNode::MirobotWriteNode()[m[K’:
+[1.769s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.769s]    32 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+[1.769s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.769s]       |       [32m[Krcl_subscription_t[m[K
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K In member function ‘[01m[Kvoid MirobotWriteNode::angle_write_callback(const JointState&)[m[K’:
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.792s]    55 |   [01;31m[KRCLCPP_INFO[m[K((rclcpp::get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());
+[1.792s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:38:2:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.792s]    38 |  [01;36m[K{[m[K
+[1.792s]       |  [01;36m[K^[m[K
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K At global scope:
+[1.792s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:55:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.792s]    55 |   [01;31m[KRCLCPP_INFO[m[K((rclcpp::get_logger("I heard,"),"Art Jiang: %s", Gcode.c_str());
+[1.792s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.504s] make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1
+[3.504s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2
+[3.504s] make: *** [Makefile:141: all] Error 2
+[3.507s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2

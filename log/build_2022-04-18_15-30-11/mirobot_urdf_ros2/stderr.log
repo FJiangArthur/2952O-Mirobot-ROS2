@@ -1,0 +1,72 @@
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6[m[K:
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K In function ‘[01m[Kvoid angle_write_callback(const JointState&)[m[K’:
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:42:2:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   42 |  [01;31m[KRCLCPP_INFO[m[K("%s", Gcode.c_str());
+      |  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:6[m[K:
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:42:2:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"%s"[m[K’, which is of non-class type ‘[01m[Kconst char [3][m[K’
+   42 |  [01;31m[KRCLCPP_INFO[m[K("%s", Gcode.c_str());
+      |  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:42:2:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"%s"[m[K’, which is of non-class type ‘[01m[Kconst char [3][m[K’
+   42 |  [01;31m[KRCLCPP_INFO[m[K("%s", Gcode.c_str());
+      |  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:49:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   49 |  [01;31m[Kros[m[K::init(argc, argv, "mirobot_write_node");//初始化，节点名称 "Mirobot_write_node"
+      |  [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:50:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   50 |  [01;31m[Kros[m[K::NodeHandle nh;
+      |  [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:52:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   52 |  [01;31m[Kros[m[K::Subscriber sub_angle = nh.subscribe("/joint_states", 1, angle_write_callback);//指定节点订阅的话题，并指定回调函数
+      |  [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:53:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   53 |  [01;31m[Kros[m[K::Rate loop_rate(20);//指定了频率为20Hz
+      |  [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO_STREAM[m[K’?
+   63 |   [01;31m[KROS_INFO_STREAM[m[K("Port has been open successfully");
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_INFO_STREAM[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR_STREAM[m[K’?
+   67 |   [01;31m[KROS_ERROR_STREAM[m[K("Unable to open port");
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_ERROR_STREAM[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   73 |   [01;31m[Kros[m[K::Duration(1).sleep();
+      |   [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO_STREAM[m[K’?
+   74 |   [01;31m[KROS_INFO_STREAM[m[K("Attach and wait for commands");
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_INFO_STREAM[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   77 |  while ([01;31m[Kros[m[K::ok())
+      |         [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   79 |   [01;31m[Kros[m[K::spinOnce();
+      |   [01;31m[K^~~[m[K
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:80:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+   80 |   [01;31m[Kloop_rate[m[K.sleep();
+      |   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

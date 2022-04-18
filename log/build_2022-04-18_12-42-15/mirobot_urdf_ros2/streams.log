@@ -1,0 +1,94 @@
+[0.019s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2
+[0.038s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.133s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.486s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.547s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.556s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.564s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.565s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.976s] -- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)
+[0.982s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.983s] -- Checking for module 'bullet>=2.82'
+[1.002s] --   Found bullet, version 2.88
+[1.116s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.178s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.233s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.267s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.303s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.323s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.329s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.338s] -- Searching for dependencies of ignition-math6
+[1.340s] -- Looking for OGRE...
+[1.342s] -- OGRE_PREFIX_WATCH changed.
+[1.346s] -- Checking for module 'OGRE'
+[1.363s] --   Found OGRE, version 1.9.0
+[1.404s] -- Found Ogre Ghadamon (1.9.0)
+[1.413s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.421s] -- Looking for OGRE_Paging...
+[1.428s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.428s] -- Looking for OGRE_Terrain...
+[1.436s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.436s] -- Looking for OGRE_Property...
+[1.444s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.444s] -- Looking for OGRE_RTShaderSystem...
+[1.451s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.452s] -- Looking for OGRE_Volume...
+[1.458s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.458s] -- Looking for OGRE_Overlay...
+[1.467s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.615s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.617s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.618s] -- Searching for dependencies of ignition-transport8
+[1.636s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.648s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.653s] -- Checking for module 'libzmq >= 4'
+[1.672s] --   Found libzmq , version 4.3.2
+[1.713s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.719s] -- Checking for module 'uuid'
+[1.736s] --   Found uuid, version 2.34.0
+[1.777s] -- Found UUID: TRUE  
+[1.779s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.779s] -- Searching for dependencies of ignition-msgs5
+[1.795s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.800s] -- Checking for module 'tinyxml2'
+[1.816s] --   Found tinyxml2, version 6.2.0
+[1.860s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.863s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.863s] -- Searching for dependencies of ignition-common3
+[1.864s] -- Looking for dlfcn.h - found
+[1.865s] -- Looking for libdl - found
+[1.866s] -- Found DL: TRUE  
+[1.872s] -- Searching for <ignition-common3> component [graphics]
+[1.874s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.875s] -- Searching for dependencies of ignition-common3-graphics
+[1.875s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.878s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.879s] -- Searching for dependencies of ignition-fuel_tools4
+[1.951s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.961s] -- Checking for module 'jsoncpp'
+[1.982s] --   Found jsoncpp, version 1.7.4
+[2.027s] -- Found JSONCPP: TRUE  
+[2.033s] -- Checking for module 'libzip'
+[2.050s] --   Found libzip, version 1.5.1
+[2.087s] -- Found ZIP: TRUE  
+[2.088s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.088s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.089s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.093s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.093s]   ament_target_dependencies() the passed package name 'rviz' was not found
+[2.093s]   before
+[2.093s] Call Stack (most recent call first):
+[2.093s]   CMakeLists.txt:29 (ament_target_dependencies)
+[2.093s] 
+[2.093s] 
+[2.095s] -- Configuring incomplete, errors occurred!
+[2.095s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeOutput.log".
+[2.096s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeError.log".
+[2.104s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2

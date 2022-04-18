@@ -1,0 +1,7 @@
+[01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/JointState.h: No such file or directory
+   19 | #include [01;31m[K<sensor_msgs/msg/JointState.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

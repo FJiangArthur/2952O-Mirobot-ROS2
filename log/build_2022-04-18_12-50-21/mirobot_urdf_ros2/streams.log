@@ -1,0 +1,86 @@
+[0.021s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.058s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.345s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.361s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.484s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.546s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.555s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.563s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.565s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.978s] -- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)
+[1.018s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.047s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.049s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.052s] -- Searching for dependencies of ignition-math6
+[1.054s] -- Looking for OGRE...
+[1.059s] -- Found Ogre Ghadamon (1.9.0)
+[1.059s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.067s] -- Looking for OGRE_Paging...
+[1.068s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.068s] -- Looking for OGRE_Terrain...
+[1.068s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.068s] -- Looking for OGRE_Property...
+[1.069s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.069s] -- Looking for OGRE_RTShaderSystem...
+[1.069s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.069s] -- Looking for OGRE_Volume...
+[1.069s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.069s] -- Looking for OGRE_Overlay...
+[1.070s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.187s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.187s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.188s] -- Searching for dependencies of ignition-transport8
+[1.203s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.212s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.216s] -- Checking for module 'libzmq >= 4'
+[1.230s] --   Found libzmq , version 4.3.2
+[1.276s] -- Checking for module 'uuid'
+[1.290s] --   Found uuid, version 2.34.0
+[1.333s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.333s] -- Searching for dependencies of ignition-msgs5
+[1.351s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.357s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.358s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.358s] -- Searching for dependencies of ignition-common3
+[1.358s] -- Looking for dlfcn.h - found
+[1.359s] -- Looking for libdl - found
+[1.365s] -- Searching for <ignition-common3> component [graphics]
+[1.365s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.366s] -- Searching for dependencies of ignition-common3-graphics
+[1.366s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.367s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.369s] -- Searching for dependencies of ignition-fuel_tools4
+[1.393s] -- Checking for module 'jsoncpp'
+[1.407s] --   Found jsoncpp, version 1.7.4
+[1.448s] -- Checking for module 'libzip'
+[1.462s] --   Found libzip, version 1.5.1
+[1.505s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.505s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.506s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.534s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.590s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.602s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/artjiang/Desktop/mirobot_urdf_ros2/include>
+[1.602s] -- Configured cppcheck exclude dirs and/or files: 
+[1.613s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.613s] -- Configured cpplint exclude dirs and/or files: 
+[1.615s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.618s] -- Added test 'lint_cmake' to check CMake code style
+[1.620s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.631s] -- Added test 'uncrustify' to check C / C++ code style
+[1.631s] -- Configured uncrustify additional arguments: 
+[1.633s] -- Added test 'xmllint' to check XML markup files
+[1.637s] -- Configuring done
+[1.640s] CMake Error at CMakeLists.txt:27 (add_library):
+[1.640s]   No SOURCES given to target: serial
+[1.641s] 
+[1.641s] 
+[1.641s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.650s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.651s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2

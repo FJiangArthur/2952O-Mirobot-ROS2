@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2
+[0.077s] [35m[1mScanning dependencies of target mirobot_write_node[0m
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o[0m
+[0.244s] [01m[K/home/artjiang/Desktop/mirobot_urdf_ros2/src/mirobot_write_node.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/uint16.hpp: No such file or directory
+[0.244s]    15 | #include [01;31m[K<std_msgs/uint16.hpp>[m[K
+[0.244s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.244s] compilation terminated.
+[0.247s] make[2]: *** [CMakeFiles/mirobot_write_node.dir/build.make:63: CMakeFiles/mirobot_write_node.dir/src/mirobot_write_node.cpp.o] Error 1
+[0.247s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mirobot_write_node.dir/all] Error 2
+[0.248s] make: *** [Makefile:141: all] Error 2
+[0.250s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2 -- -j2 -l2

@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2
+[0.033s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.123s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.353s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.469s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.529s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.539s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.547s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.549s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.923s] -- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)
+[0.932s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.932s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[0.932s]   asked CMake to find a package configuration file provided by "gazebo", but
+[0.932s]   CMake did not find one.
+[0.932s] 
+[0.932s]   Could not find a package configuration file provided by "gazebo" with any
+[0.932s]   of the following names:
+[0.932s] 
+[0.932s]     gazeboConfig.cmake
+[0.932s]     gazebo-config.cmake
+[0.932s] 
+[0.932s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[0.932s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[0.932s]   provides a separate development package or SDK, be sure it has been
+[0.932s]   installed.
+[0.933s] 
+[0.933s] 
+[0.935s] -- Configuring incomplete, errors occurred!
+[0.936s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeOutput.log".
+[0.936s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeError.log".
+[0.941s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2

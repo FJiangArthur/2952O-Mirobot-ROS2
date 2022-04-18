@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2
+[0.042s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.141s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.368s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.370s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.387s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.510s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.575s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.588s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.599s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.601s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.019s] -- Found rviz2: 8.5.0 (/opt/ros/galactic/share/rviz2/cmake)
+[1.028s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.028s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[1.029s]   this project has asked CMake to find a package configuration file provided
+[1.029s]   by "joint_state_publisher", but CMake did not find one.
+[1.029s] 
+[1.029s]   Could not find a package configuration file provided by
+[1.029s]   "joint_state_publisher" with any of the following names:
+[1.030s] 
+[1.030s]     joint_state_publisherConfig.cmake
+[1.030s]     joint_state_publisher-config.cmake
+[1.030s] 
+[1.030s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[1.031s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[1.031s]   above files.  If "joint_state_publisher" provides a separate development
+[1.031s]   package or SDK, be sure it has been installed.
+[1.031s] 
+[1.031s] 
+[1.032s] -- Configuring incomplete, errors occurred!
+[1.033s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeOutput.log".
+[1.033s] See also "/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2/CMakeFiles/CMakeError.log".
+[1.039s] Invoked command in '/home/artjiang/Desktop/mirobot_urdf_ros2/build/mirobot_urdf_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/artjiang/Desktop/mirobot_urdf_ros2 -DCMAKE_INSTALL_PREFIX=/home/artjiang/Desktop/mirobot_urdf_ros2/install/mirobot_urdf_ros2
